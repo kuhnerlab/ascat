@@ -751,10 +751,10 @@ create_distance_matrix = function(segments, gamma, doubled) {
     psi_pos = seq(1.0,6.0,0.05)
   }
   if (doubled == "2") {
-    psi_pos = seq(1.0,2.9,0.05)
+    psi_pos = seq(1.0,2.65,0.05)
   }
   if (doubled == "4") {
-    psi_pos = seq(2.65,6.0,0.05)
+    psi_pos = seq(2.40,6.0,0.05)
   }
   if (doubled == "8") {
     psi_pos = seq(3.5,8.5,0.05)
